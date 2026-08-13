@@ -1,0 +1,21 @@
+git config --global user.name andresdevapps
+$ git config --global user.email andresdevmt@gmail.com
+$ git add [nombreDirectorio]
+$ git add .
+$ git status
+$ git commit -m "commit"
+$ git remote add origin [URL del repositorio]
+$ git branch -M main
+$ git push -u origin main
+
+Esta versión del documento vive en la rama rama2/main
+
+----------------
+
+echo "# gitHubEjercicios" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/andresdevapps/Crear-componentes-front-end
+git push -u origin main
