@@ -1,40 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="css/style.css">
-    <title>mi portafolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Mi Portafolio</title>
 </head>
+
 <body>
-    <header>
-         <h1> Andres Camilo Martinez Tibavizco</h1>
-         <p>Aprendiz de analisis y desarrollo de software</p>
-    </header>
-    <nav>
-        <a href=#inicio>inicio</a>
-        <a href=#acerca de mí>acerca de mí</a>
-        <a href=#formacion>formación</a>
-        <a href=#contacto>contacto</a>
-    </nav>
+    <div class="fondo"> </div>
+    <div class="contenido">
 
-    <section id="inicio">
-    <h2>Bienvenido A Mi Portafolio</h2>
-    
-    <img src="img/" alt="imagen de mi ">
-        
-    <p>Soy aprendiz de analisis y desarrollo de software
-        me gusta el desarrollo web siempre intento aprender cosas nuevas y mejorar como desarrollador
-    </p>
-    <section id="acerca de mí">
-       <h2>Acerca De Mí</h2> 
-     <p>soy una persona responsable amable me gusta trabajar en equipo y poder aprender nuevas cosas   me motiva el seguir creciendo en el mundo del software</p>
-    </section>
 
-    <section id="formacion">
-        <h2>Formación</h2>
-        <p>Información sobre mi educación y certificaciones.</p>
-    </section>
 
+
+
+       <header>  
+           <div class="nombre">
+            Andres Camilo Martinez Tibavizco
+           </div >
+           <div class="estudio">Aprendiz de Analisis y Desarrollo de Software</div>
+
+       </header>
+
+
+
+       <!-- INICIO -->
+       <section id="inicio">
+
+           <h2>Bienvenido A Mi Portafolio</h2>
+           <div class="infoinicio">
+                Soy aprendiz de analisis y desarrollo de software
+                me gusta el desarrollo web siempre intento aprender cosas nuevasy mejorar como desarrollador
+            </div>
+            <div class="fotoinicio">
+            <img src="img/" alt="imagenmia">
+            </div>
+           
+
+       </section>
+
+
+       <!-- ACERCA DE MÍ -->
+       <section id="acerca-de-mi">
+
+           <h2>Acerca De Mí</h2>
+
+           <div class="acercademi">
+
+               <div
+                   class="slider"
+                   style="
+                       --width: 200px;
+                       --height: 200px;
+                       --quantity: 2;
+                   "
+               >
+
+                   <div class="list">
+
+                       <div class="item" style="--position: 1">
+
+                           <div
+                               class="card"
+                               style="
+                                   background: linear-gradient(
+                                       to right,
+                                       #ff7e5f,
+                                       #feb47b
+                                   )
+                               "
+                           >
+                               <p>MI FORMA DE SER</p>
+
+                               <p>
+                                   soy una persona responsable amable me gusta
+                                   trabajar en equipo y poder aprender nuevas cosas
+                               </p>
+                           </div>
+
+                       </div>
+
+
+                       <div class="item" style="--position: 2">
+
+                           <div
+                               class="card"
+                               style="
+                                   background: linear-gradient(
+                                       to right,
+                                       #6a11cb,
+                                       #2575fc
+                                   )
+                               "
+                           >
+                               <p>PASIONES</p>
+
+                               <p>
+                                   Me gusta el desarrollo web y siempre intento
+                                   aprender cosas nuevas y mejorar como desarrollador
+                               </p>
+                           </div>
+
+                       </div>
+
+                   </div>
+
+               </div>
+
+           </div>
+
+       </section>
+
+
+       <!-- FORMACIÓN -->
+       <section id="formacion">
+
+           <h2>Formación</h2>
+
+           <p>
+               Información sobre mi educación y certificaciones.
+           </p>
+
+
+           <div class="container scroll-1">
+
+               <!-- Formación 1 -->
+               <div class="card">
+
+                   <div class="card__image"></div>
+
+                   <div class="card__content">
+
+                       <span class="card__title">
+                           2025-2027 ACTUALMENTE
+                       </span>
+
+                       <p class="card__describe">
+                           Tecnologo en analisis y desarrollo de software.
+                       </p>
+
+                       <p>SENA-CIDE</p>
+
+                       <span class="card__title">
+                           Centro de formacion
+                       </span>
+
+                       <p>
+                           Centro industrial y de Desarrollo Empresarial,
+                           Soacha, Cundinamarca
+                       </p>
+
+                   </div>
+
+               </div>
+
+
+               <!-- Formación 2 -->
+               <div class="card">
+
+                   <div class="card__image"></div>
+
+                   <div class="card__content">
+
+                       <span class="card__title">
+                           2023-2025
+                       </span>
+
+                       <p class="card__describe">
+                           Tecnico en Contabilizacion de Operaciones
+                           Comerciales y Financieras.
+                       </p>
+
+                       <p>SENA-CIDE</p>
+
+                       <span class="card__title">
+                           Centro de formacion
+                       </span>
+
+                       <p>
+                           Centro industrial y de Desarrollo Empresarial,
+                           Soacha, Cundinamarca
+                       </p>
+
+                   </div>
+
+               </div>
+
+
+               <!-- Formación 3 -->
+               <div class="card">
+
+                   <div class="card__image"></div>
+
+                   <div class="card__content">
+
+                       <span class="card__title">
+                           2019-2024
+                       </span>
+
+                       <p class="card__describe">
+                           Bachiller Academico
+                       </p>
+
+                       <p>
+                           Institucion colegio santa rosa de lima
+                       </p>
+
+                   </div>
+
+               </div>
+
+           </div>
+
+
+           <!-- CERTIFICACIONES -->
+           <h2>Certificaciones</h2>
+
+           <div class="container scroll-1">
+
+               <!-- Certificación 1 -->
+               <div class="card">
+
+                   <div class="card__image"></div>
+
+                   <div class="card__content">
+
+                       <span class="card__title">
+                           Ingles Basico Nivel 1
+                       </span>
+
+                       <p class="card__describe">
+                           Sena 2025
+                       </p>
+
+                   </div>
+
+               </div>
+
+
+               <!-- Certificación 2 -->
+               <div class="card">
+
+                   <div class="card__image"></div>
+
+                   <div class="card__content">
+
+                       <span class="card__title">
+                           Ingles basico nivel 2
+                       </span>
+
+                       <p class="card__describe">
+                           Sena 2025
+                       </p>
+
+                   </div>
+
+               </div>
+
+           </div>
+
+       </section>
+
+
+       <!-- FOOTER -->
+       <footer id="contacto" class="pie-pagina">
+
+           <div class="informacion-contacto">
+
+               <div class="contacto">
+                   <i class="fa-regular fa-envelope"></i>
+                   <span>andresdevmt@gmail.com</span>
+               </div>
+
+               <div class="contacto">
+                   <i class="fa-solid fa-phone"></i>
+                   <span>3022497965</span>
+               </div>
+
+               <div class="contacto">
+                   <i class="fa-solid fa-location-dot"></i>
+                   <span>andresdevapps</span>
+               </div>
+
+           </div>
+
+
+           <div class="pie-copyright">
+
+               <p>
+                   <i class="fa-regular fa-copyright"></i>
+                   2026 - Institución Educativa Salvatore
+               </p>
+
+           </div>
+
+       </footer>
+    </div>
 </body>
+
 </html>

@@ -7,7 +7,7 @@ $ git commit -m "commit"
 $ git remote add origin [URL del repositorio]
 $ git branch -M main
 $ git push -u origin main
-
+$ code . abre el repositorio como si fuera la carpeta principal
 Esta versión del documento vive en la rama rama2/main
 
 ----------------
